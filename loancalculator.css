@@ -1,0 +1,52 @@
+#loancal {
+    width: 375px;
+    height: 295px;
+  box-shadow: 0 0 3px rgb(20, 20, 20);
+  border-radius: 20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius: 20px;
+  background-color: rgb(103, 236, 170);
+  background: -webkit-linear-gradient(to left, #eaf106, #709702fb);
+  background: linear-gradient(to left #eaf106, #709702fb);
+    margin-left: 275px;
+    margin-top: 95px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background:linear-gradient(-45deg,#000,#e73c73,#19b6d0,#2305ab);
+     background-size: 400%,400%;
+     position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+
+#months, #amount, #interest_rate{
+    width: 175px;
+    height: 20px;
+
+}
+
+#interest_rate {
+    margin-left: 2px;
+}
+
+h1 {
+    font-size:40px;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+    
+}
